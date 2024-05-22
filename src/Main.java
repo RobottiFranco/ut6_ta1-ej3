@@ -48,7 +48,7 @@ public class Main {
         i = 0;
         for (String string : file) {
             
-            hash.buscar(Integer.parseInt(string));
+            buscar[i] = hash.buscar(Integer.parseInt(string));
             i++;
         }
 
